@@ -19,7 +19,7 @@ const Products = () => {
       </div>
       <div className="divider-bottom"></div>
       <div>
-        <p className="center-text">
+        <p className="center-text cri-fluid">
           <strong>
             C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS
           </strong>
