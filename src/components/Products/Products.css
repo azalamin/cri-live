@@ -1,0 +1,13 @@
+.divider {
+  color: red;
+}
+.divider-bottom {
+  background-color: brown;
+  height: 2px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.center-text {
+  text-align: center;
+}
