@@ -1,7 +1,8 @@
 .top-banner {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
+  gap: 20px;
 }
 
 p,
@@ -12,26 +13,49 @@ li {
 img {
   width: 100%;
 }
+.logo {
+  text-align: center;
+}
 
 .logo img {
   text-align: center;
   max-width: 400px;
 }
 .right-container {
-  flex-grow: 8;
+  min-width: 70%;
 }
 .award {
-  width: 600px;
-  flex-grow: 1;
+  min-width: 30%;
+}
+.award img {
+  height: 500px;
 }
 
 .award-taking img {
-  width: 500px;
+  max-width: 600px;
+  width: 100%;
   margin-left: 10px;
   margin-top: 10px;
+  height: 280px;
 }
 
 .list-container {
   margin-left: 35px;
   margin-top: 20px;
+}
+
+/*###############   MEDIA QUERIES (SMALL DEVICES)   ################*/
+@media screen and (max-width: 768px) {
+  .top-banner {
+    flex-direction: column;
+  }
+  .award img {
+    height: 600px;
+  }
+  .award-taking img {
+    margin-left: 0;
+  }
+  p {
+    text-align: center;
+  }
 }
