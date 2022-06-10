@@ -1,0 +1,51 @@
+footer {
+  background-color: red;
+  color: white;
+  padding: 30px 30px;
+  margin-top: 40px;
+}
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.icon {
+  font-size: 22px;
+  margin-right: 3px;
+}
+.icon-phone {
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+  background-color: white;
+  border-radius: 50%;
+  color: red;
+}
+.footer-item a {
+  color: white;
+  font-size: 12px;
+}
+
+/*###############   MEDIA QUERIES (SMALL DEVICES)   ################*/
+@media screen and (max-width: 768px) {
+  .footer_container {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+/*###############   MEDIA QUERIES (SMALL DEVICES)   ################*/
+@media screen and (max-width: 350px) {
+  .icon-container {
+    flex-direction: column;
+  }
+  .icon {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+}
