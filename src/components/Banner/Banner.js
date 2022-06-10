@@ -11,9 +11,11 @@ const Banner = () => {
           <img src={logo} alt="" />
         </div>
         <header className="top-banner">
+          {/* Left Side Award */}
           <div className="award">
             <img src={IMG2} alt="" />
           </div>
+          {/* Right Side Award Taking Image */}
           <div className="right-container">
             <div>
               <p>
